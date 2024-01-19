@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 
 let fullName = 'Fernando Cuba';
-let currenYear = '2024';
+let currentYear = '2024';
 let profilePicture = 'images/fernandocubaunalm.jpg';
 
 
