@@ -20,15 +20,15 @@ myProfile.placesLived.push(
     },
 
     {
-        place: 'Callao',
+        place: 'Callao, Peru',
         length: '2 years'
     },
     {
-        place: 'La Molina',
+        place: 'La Molina, Peru',
         length: '20 years'
     },
     {
-        place: 'Monterrey',
+        place: 'Monterrey, Mx',
         length: '2 years'
     }
 );
