@@ -28,7 +28,7 @@ myProfile.placesLived.push(
         length: '20 years'
     },
     {
-        place: 'Monterrey, Mx',
+        place: 'Monterrey, MX',
         length: '2 years'
     }
 );
