@@ -67,15 +67,15 @@ const filterProducts = (origamis) => {
     switch (filter){
 
         case 'animals': 
-           displayTemples(origamis.filter(origami => origami.kindofproduct.includes('animals')));
+           displayOrigamis(origamis.filter(origami => origami.kindofproduct.includes('animals')));
            break;
         case 'pokemons':
-            displayTemples(origamis.filter(origami => origami.kindofproduct.includes('pokemons')));
+            displayOrigamis(origamis.filter(origami => origami.kindofproduct.includes('pokemon')));
             break;
         case 'flowers':
-            displayTemples(origamis.filter(origami => origami.kindofproduct.includes('flowers')));
+            displayOrigamis(origamis.filter(origami => origami.kindofproduct.includes('flower')));
         case 'all':
-            displayTemples(origamis);
+            displayOrigamis(origamis);
             break;
         
         }
