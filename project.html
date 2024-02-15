@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE 121b | Final project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <nav>
+    <ul id="menu">
+      <li><a id="toggleMenu">&equiv;</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="w01-task.html">W1 Task</a></li>
+      <li><a href="w03-task.html">W3 Task</a></li>
+      <li><a href="w04-task.html">W4 Task</a></li>
+      <li><a href="w05-task.html" class="active">W5 Task</a></li>
+      <li><a href="project.html">Project</a></li>
+    </ul>
+  </nav>
+  <main id="gridly">
+    <h1>W06: Project </h1>
+    <h2>OKAMI - Paper forlding Company</h2>
+      <div class="info">Slogan: <span id="slogan"></span></div>
+    <h3>Values of company</h3>
+      <div class="block" id="values"></div>
+
+
+    <select id="filtered" title="Choose a data filter.">
+      <option value="" disabled selected>Kind of products</option>
+      <option value="animals">Animals</option>
+      <option value="Pokemons">Pokemons</option>
+      <option value="Flowes">Flowers</option>
+      <option value="all">No Filter</option>
+    </select>
+
+    <div id="origami">
+    </div>
+  </main>
+
+
+  <footer>
+    &copy;<span id="year"></span> | Week 06 - Project | CSE 121b
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="scripts/finalproyect.js"></script>
+</body>
+
+</html>
