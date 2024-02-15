@@ -52,12 +52,6 @@ const reset = () => {
     origamiElement.innerHTML = '';
 };
 
-/* filterTemples Function */
-
-/* in the Criterias for grading is placed the following function
-named as 'SortBy' but in the instructions is placed as 'filerTemples' function
-so I continued coding with function called 'filterTemples' as mentioned
-in this template*/
 const filterProducts = (origamis) => {
 
     reset();
@@ -74,6 +68,7 @@ const filterProducts = (origamis) => {
             break;
         case 'flowers':
             displayOrigamis(origamis.filter(origami => origami.kindofproduct.includes('flower')));
+            break;
         case 'all':
             displayOrigamis(origamis);
             break;
