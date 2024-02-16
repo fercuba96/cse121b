@@ -1,9 +1,14 @@
 let slogan = 'Crafting Tomorrow, one fold at a time.';
+let purpose = 'Mision : Do products that make life easier and more meaningful\n'+
+'- Purpose 1: Share joy of having paperfolding in our lives\n'+
+'- Purpose 2: Make culture and history of paperfolding more significant\n';
 
 const sloganElement = document.getElementById('slogan');
 const valuesElement = document.getElementById('values');
+const purposeElement = document.getElementById('purpose');
 
 sloganElement.innerHTML = `<strong>${slogan}</strong>`;
+purposeElement.innerHTML = `<strong>${purpose}</strong>`;
 
 let valuesofcompany = ['Innovation', 'Social Connectivity','Community Empowerment'];
 
