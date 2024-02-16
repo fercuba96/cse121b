@@ -5,9 +5,9 @@ const valuesElement = document.getElementById('values');
 
 sloganElement.innerHTML = `<strong>${slogan}</strong>`;
 
-let valuesofcompany = ['Honesty', 'Gratitude'];
+let valuesofcompany = ['Innovation', 'Social Connectivity','Community Empowerment'];
 
-valuesElement.innerHTML = "Identity includes: " + valuesofcompany.join(', ');
+valuesElement.innerHTML = "Are essential for us: " + valuesofcompany.join(', ');
 
 const origamiElement = document.querySelector('#origami');
 let origamiList = [];
